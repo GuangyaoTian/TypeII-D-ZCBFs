@@ -4,10 +4,12 @@ Dynamic Multi-Obstacle Environments".
 
 ## Installation
 To use this project,you need to download some dependency packages about Turtlebot3
-> mkdir -p catkin_ws/src
-> 
-> cd catkin_ws/src
-> 
+```
+mkdir -p catkin_ws/src
+```
+```
+cd catkin_ws/src
+```
 > source /opt/ros/noetic/setup.bash
 > 
 > catkin_init_workspace
