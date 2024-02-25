@@ -1,0 +1,4 @@
+<launch>
+  <node name="pi_controller" pkg="turtlebot3_gazebo" type="obmove_try.py" output="screen" respawn="true" />
+  <node name="control_obstacle_speed" pkg="turtlebot3_gazebo" type="noobs.py" output="screen" respawn="true" />
+</launch>
