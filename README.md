@@ -3,27 +3,40 @@ This program demonstrates a novel algorithm that combines the advantages of Mode
 Dynamic Multi-Obstacle Environments".
 
 ## Installation
-To use this project,you need to download some dependency packages about Turtlebot3
+Creating a workspace
 ```
 mkdir -p catkin_ws/src
 ```
 ```
 cd catkin_ws/src
 ```
-> source /opt/ros/noetic/setup.bash
-> 
-> catkin_init_workspace
-> sudo apt install ros-noetic-turtlebot3-msgs
->
-> sudo apt install ros-noetic-turtlebot3
->
-> git clone https://github.com/ROBOTIS-GIT/turtlebot3
->
-> git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs
->
-> git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
->
-> git clone https://github.com/GuangyaoTian/TypeII-D-ZCBFs.git
+```
+source /opt/ros/noetic/setup.bash
+```
+```
+catkin_init_workspace
+```
+To use this project,you need to download some dependency packages about Turtlebot3
+```
+sudo apt install ros-noetic-turtlebot3-msgs
+```
+```
+sudo apt install ros-noetic-turtlebot3
+```
+```
+git clone https://github.com/ROBOTIS-GIT/turtlebot3
+```
+```
+git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs
+```
+```
+git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+```
+```
+git clone https://github.com/GuangyaoTian/TypeII-D-ZCBFs.git
+```
+
+
 ## Reference
 Turtlebot3 gazebo simulation
 https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
