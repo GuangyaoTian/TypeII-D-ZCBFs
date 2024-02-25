@@ -35,7 +35,21 @@ git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
 ```
 git clone https://github.com/GuangyaoTian/TypeII-D-ZCBFs.git
 ```
+Afterwards, it's necessary to copy the worlds and launch files into the turtlebot3_simulations.
+```
+cp -r TypeII-D-ZCBFs/worlds/* turtlebot3_simulations/turtlebot3_gazebo/worlds/
 
+```
+```
+cp -r TypeII-D-ZCBFs/launch/* turtlebot3_simulations/turtlebot3_gazebo/launch/
+
+```
+Initializing the workspace
+
+## Result
+<p align="center" width="100%">
+    <img src="video.mp4" width="400">
+</p>
 
 ## Reference
 Turtlebot3 gazebo simulation
