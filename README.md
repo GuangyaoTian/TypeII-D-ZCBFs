@@ -69,7 +69,10 @@ run camera:
 ```
 rosrun image_view image_view image:=/camera/rgb/image_raw
 ```
-
+run the python file that you want:
+```
+python3 TypeII-D-ZCBFs_one_obs.py
+```
 ## Result
 
 ## License
