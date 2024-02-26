@@ -74,7 +74,8 @@ run the python file that you want:
 python3 TypeII-D-ZCBFs_one_obs.py
 ```
 ## Result
-
+See the result in this video:
+[Click here to watch](https://www.youtube.com/watch?v=nTVGFTuI7bE)
 ## License
 The contents of this repository are covered under the [MIT License](LICENSE).
 ## Reference
